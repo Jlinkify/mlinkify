@@ -8,37 +8,32 @@
 <body>
   hello, enter the password there, thanks!
   <script>
-// create label
 const label = document.createElement("label");
 label.setAttribute("for", "password");
 label.innerHTML = "Password: ";
 
-// insert label
 document.body.appendChild(label);
 
-// create textbox
 const input = document.createElement("input");
 input.setAttribute("id", "password");
 input.setAttribute("type", "text");
 
-// insert textbox
 document.body.appendChild(input);
     
-// grab the password textbox
 const passwordText = document.getElementById("password");
 
-// use insertBefore() method
 document.body.insertBefore(label, passwordText);
     
-  const usernameText = document.getElementById("password");
-const value = psaswordText.value;
+  const passwordText = document.getElementById("password");
+const value = passwordText.value;
 console.log(value); // your textbox value
   const passwordText = document.getElementById("password");
 passwordText.value = "first day!";
   
-  
+  if passwordText.value = "first day!";
+    then window.location.replace("http://www.w3schools.com");
   </script>
-  <label for="password">Username: </label>
+  <label for="password">Password: </label>
 <input id="password" type="text">
 </body>
 </html>
