@@ -6,7 +6,7 @@
 <title> mlinkify!</title>
 </head>
 <body>
-  hello, enter the wee password there, thanks!
+  hello, enter the password there, thanks!
   <script>
 // create label
 const label = document.createElement("label");
@@ -30,6 +30,13 @@ const passwordText = document.getElementById("password");
 // use insertBefore() method
 document.body.insertBefore(label, passwordText);
     
+  const usernameText = document.getElementById("password");
+const value = psaswordText.value;
+console.log(value); // your textbox value
+  const passwordText = document.getElementById("password");
+passwordText.value = "first day!";
+  
+  
   </script>
   <label for="password">Username: </label>
 <input id="password" type="text">
