@@ -1,39 +1,25 @@
-<html>
-  <body>
-  <form action="action_page.php" method="post">
- 
-  </div>
+<!DOCTYPE html>
+<head>
+  <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title> login now</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <div class="container">
+      <form class="form" id="login">
+        <h1 class="form__title">Login</h1>
+        <div class="form__message form__message--error">Incorrect username or password.</div>
+        <div class="form__input-group">
+          <input type="text" class="form__input" autofocus placeholder="Username">
+          <div class="form__input-error-message"> error </div>
 
-  <div class="container">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+        </div>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
 
-    <button type="submit">Login</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-  </div>
+      </form>
+    </div>
 
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
-</form>
-    
-    
-    
-    
-    
-    
-    <video controls>
-    <source src="video/translink.mp4" type="video/mp4">
-  </video>
-  
-    <h1> </h1>
-  
-  </body>
-
-</html>
+  <script src="main.js"></script>
+</body>
